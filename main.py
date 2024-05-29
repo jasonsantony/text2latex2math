@@ -11,7 +11,7 @@ def evaluate(text):
     text (str): The input string containing LaTeX math snippets.
 
     Returns:
-    list: A list of evaluated sympy expressions.
+    fully_evaluated_expressions: A list of evaluated sympy expressions.
     """
     # Regular expression to match inline and display math snippets
     pattern = r"(\$\$.*?\$\$|\$.*?\$)"
